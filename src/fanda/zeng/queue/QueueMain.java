@@ -5,13 +5,13 @@ import java.util.Random;
 public class QueueMain {
 
     public static void main(String[] args) {
-        int opCount = 100000;
-        ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
+        int opCount = 1000000;
+//        ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
         LoopQueue<Integer> loopQueue = new LoopQueue<>();
-//        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
-        System.out.println("arrayQueue need time = " + testQueue(arrayQueue, opCount));
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+//        System.out.println("arrayQueue need time = " + testQueue(arrayQueue, opCount));
         System.out.println("loopQueue need time = " + testQueue(loopQueue, opCount));
-//        System.out.println("linkedListQueue need time = " + testQueue(linkedListQueue, opCount));
+        System.out.println("linkedListQueue need time = " + testQueue(linkedListQueue, opCount));
 
     }
 
