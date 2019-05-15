@@ -14,3 +14,7 @@
 集合的详细分析如下链接：[https://fandazeng.github.io/2019/05/14/data_structures/Set/#more](https://fandazeng.github.io/2019/05/14/data_structures/Set/#more)
 
 映射的详细分析如下链接：[https://fandazeng.github.io/2019/05/15/data_structures/Map/#more](https://fandazeng.github.io/2019/05/15/data_structures/Map/#more)
+
+二叉堆和优先队列的详细分析如下链接：[https://fandazeng.github.io/2019/05/15/data_structures/PriorityQueue/](https://fandazeng.github.io/2019/05/15/data_structures/PriorityQueue/)
+
+
