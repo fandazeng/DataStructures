@@ -18,3 +18,5 @@
 [二叉堆和优先队列的详细分析](https://fandazeng.github.io/2019/05/15/data_structures/PriorityQueue/#more)
 
 [AVL树的详细分析](https://fandazeng.github.io/2019/05/16/data_structures/AVLTree/#more)
+
+[红黑树的详细分析](https://fandazeng.github.io/2019/05/16/data_structures/RBTree/)
