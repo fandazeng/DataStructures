@@ -1,6 +1,6 @@
 package fanda.zeng.map;
 
-import fanda.zeng.avl.AVLTree;
+import fanda.zeng.tree.AVLTree;
 
 /** 
  * @Description: 基于 AVL 树实现的映射

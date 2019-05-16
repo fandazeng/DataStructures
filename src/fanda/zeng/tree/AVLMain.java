@@ -1,11 +1,9 @@
-package fanda.zeng.avl;
+package fanda.zeng.tree;
 
-import fanda.zeng.bst.BST;
 import fanda.zeng.map.BSTMap;
 import fanda.zeng.utils.FileOperation;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class AVLMain {
 

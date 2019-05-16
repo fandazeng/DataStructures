@@ -1,4 +1,4 @@
-package fanda.zeng.bst;
+package fanda.zeng.tree;
 
 import java.util.*;
 

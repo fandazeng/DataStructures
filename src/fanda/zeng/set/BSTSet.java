@@ -1,6 +1,6 @@
 package fanda.zeng.set;
 
-import fanda.zeng.bst.BST;
+import fanda.zeng.tree.BST;
 import fanda.zeng.utils.FileOperation;
 
 import java.util.ArrayList;

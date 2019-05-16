@@ -1,4 +1,4 @@
-package fanda.zeng.avl;
+package fanda.zeng.tree;
 
 import fanda.zeng.utils.FileOperation;
 
