@@ -26,7 +26,7 @@ public class MapMain {
     }
 
     /**
-     * 测试集合的运行时间
+     * 测试映射的运行时间
      */
     private static double testMap(Map<String,Integer> map, String fileName) {
         long startTime = System.nanoTime();
