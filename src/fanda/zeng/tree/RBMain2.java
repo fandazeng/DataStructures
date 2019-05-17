@@ -1,5 +1,6 @@
 package fanda.zeng.tree;
 
+import fanda.zeng.hash.HashTable;
 import fanda.zeng.map.BSTMap;
 import fanda.zeng.utils.FileOperation;
 
@@ -77,6 +78,25 @@ public class RBMain2 {
 
             time = (endTime - startTime) / 1000000000.0;
             System.out.println("RBTree: " + time + " s");
+
+            // Test HashTable
+            startTime = System.nanoTime();
+
+            HashTable<String, Integer> hashTable = new HashTable<>();
+            for (String word : words) {
+                if (hashTable.contains(word))
+                    hashTable.set(word, hashTable.get(word) + 1);
+                else
+                    hashTable.add(word, 1);
+            }
+
+            for(String word: words)
+                hashTable.contains(word);
+
+            endTime = System.nanoTime();
+
+            time = (endTime - startTime) / 1000000000.0;
+            System.out.println("HashTable: " + time + " s");
 
         }
 
